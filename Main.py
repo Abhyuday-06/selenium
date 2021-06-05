@@ -28,4 +28,5 @@ browser = webdriver.Chrome(executable_path=driver_path, options=option)
 code = input("Enter the query which you want to search on Google:")
 time.sleep(5)
 browser.get(f"https://meet.google.com/{code}")
+
 """
